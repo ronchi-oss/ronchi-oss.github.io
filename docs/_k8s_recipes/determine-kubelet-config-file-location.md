@@ -2,6 +2,7 @@
 layout: page
 title: Determining kubelet config file location
 permalink: /kubernetes/kubelet-config-file-location/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 ```
 sudo systemctl status kubelet

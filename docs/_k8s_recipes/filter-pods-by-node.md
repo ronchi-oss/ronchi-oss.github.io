@@ -2,6 +2,7 @@
 layout: page
 title: Filter pods by node
 permalink: /kubernetes/filter-pods-by-node/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 
 ```sh

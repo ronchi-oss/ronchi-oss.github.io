@@ -2,6 +2,7 @@
 layout: page
 title: Kubernetes development cluster setup
 permalink: /kubernetes/kubernetes-development-cluster-setup/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 
 Using [Canonical Multipass](https://multipass.run) and the [official installation manual](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/) with the [Docker container runtime](https://docs.docker.com/engine/install/ubuntu/).

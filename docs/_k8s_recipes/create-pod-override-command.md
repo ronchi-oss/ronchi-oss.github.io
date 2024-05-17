@@ -2,6 +2,7 @@
 layout: page
 title: Create pod and override its command
 permalink: /kubernete/create-pod-override-command/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 
 ```sh

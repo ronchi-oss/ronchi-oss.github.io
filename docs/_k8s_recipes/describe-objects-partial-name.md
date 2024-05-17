@@ -2,6 +2,7 @@
 layout: page
 title: Describing objects by partial name
 permalink: /kubernetes/describe-objects-partial-name/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 Providing a prefix is enough to match an unambiguous object name. Consider the following output, where pod names    are suffixed with either random strings (regular pods) or the node name (static pods).
 

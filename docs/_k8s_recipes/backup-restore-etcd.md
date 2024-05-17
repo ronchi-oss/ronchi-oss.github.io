@@ -2,6 +2,7 @@
 layout: page
 title: Back up and restore etcd database
 permalink: /kubernetes/backup-restore-etcd/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 
 etcd is meant to be accessed through an API, likely following the Kubernetes API server model. Instead of sending   `curl` requests to a URL though, an official client, `etcdctl` should be installed in the control plane node. Each  call to the etcd API through `etcdctl` needs to (1) refer to version 3 of the API, which causes a different         argument list to be required and (2) include the three keys in order to authenticate properly:

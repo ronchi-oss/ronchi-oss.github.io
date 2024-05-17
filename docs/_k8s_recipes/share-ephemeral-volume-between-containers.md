@@ -2,6 +2,7 @@
 layout: page
 title: Share an ephemeral volume between two containers inside same pod
 permalink: /kubernetes/share-ephemeral-volume-between-containers-same-pod/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 
 ```yaml

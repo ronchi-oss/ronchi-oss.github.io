@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    {% if page.date and page.parent %}
+    <p class="post-meta">
+      Last update: <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%-d %b %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      - Parent page: <a href="{{ page.parent[0] }}">{{ page.parent[1] | escape }}</a>
+    </p>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

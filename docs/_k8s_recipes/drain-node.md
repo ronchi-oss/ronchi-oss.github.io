@@ -2,6 +2,7 @@
 layout: page
 title: Drain a node
 permalink: /kubernetes/drain-node/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 
 Watch it on a terminal:

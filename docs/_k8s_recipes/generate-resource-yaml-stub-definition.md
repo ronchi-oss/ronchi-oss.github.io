@@ -2,6 +2,7 @@
 layout: page
 title: Generate resource YAML stub definition
 permalink: /kubernetes/generate-resource-yaml-stub-definition/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 
 For resources that can be created using `kubectl create`:

@@ -2,6 +2,7 @@
 layout: page
 title: Generate kubeadm join command for new worker node
 permalink: /kubernetes/generate-kubeadm-join-command/
+parent: ["/kubernetes/", "Kubernetes"]
 ---
 
 ```
